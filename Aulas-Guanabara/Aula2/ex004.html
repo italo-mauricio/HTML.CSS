@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+
+            font: normal 20pt Arial;
+
+        }
+      
+
+
+    </style>
 </head>
 <body>
     
     <script>
         var nome = window.prompt("Qual é o seu nome: ")
-        document.write(`Seu nome tem ${nome.length} letras`)
-
+        document.writeln(`Seu nome tem <strong>${nome.length}</strong>   letras. <br/>`)
+        document.writeln(`Seu nome em maiusculas é ${nome.toLocaleUpperCase()}`)
 
     </script>
 </body>
