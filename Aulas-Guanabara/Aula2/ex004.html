@@ -21,7 +21,9 @@
     <script>
         var nome = window.prompt("Qual é o seu nome: ")
         document.writeln(`Seu nome tem <strong>${nome.length}</strong>   letras. <br/>`)
-        document.writeln(`Seu nome em maiusculas é ${nome.toLocaleUpperCase()}`)
+        document.writeln(`Seu nome em maiusculas é ${nome.toLocaleUpperCase()}<br/>`)
+        document.writeln(`Seu nome em minusculo é ${nome.toLocaleLowerCase()}`)
+        // n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = anotando comando de BRL, USD etc
 
     </script>
 </body>
