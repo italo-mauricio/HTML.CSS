@@ -1,1 +1,1 @@
-# Learning-JavaScript-
+# Repositório destinado ao aprendizado em JavaScript
