@@ -8,12 +8,11 @@
     <style>
         body {
             font: normal 18pt Arial;
+            background-color: aqua;
         }
         input {
             font: normal 18pt Arial;
             width: 100px;
-
-
         }
     </style>
 
@@ -30,6 +29,19 @@
     <input type="number" name="txtn4" id="txtn4">
     <input type="button" value="Subtrair" onclick="subtrair()">
     <div id="res2">Resultado</div>
+
+    <h1>Dividindo Valores</h1>
+    <input type="number" name="txtn5" id="txtn5"> /
+    <input type="number" name="txtn6" id="txtn6">
+    <input type="button" value="Dividir" onclick="dividir()">
+    <div id="res3">Resultado</div>
+
+    <h1>Multiplicando Valores</h1>
+    <input type="number" name="txtn7" id="txtn7"> /
+    <input type="number" name="txtn8" id="txtn8">
+    <input type="button" value="Multiplicar" onclick="multi()">
+    <div id="res4">Resultado</div>
+
     <script>
         function somar(){
             var tn1 = window.document.getElementById('txtn1')
@@ -48,11 +60,29 @@
             var n2 = Number(tn4.value)
             var sub = n1 - n2
             res2.innerHTML = `A subtração entre ${n1} e ${n2} é igual a ${sub}`
-
-
-
         }    
+        function dividir(){
+            var tn5 = window.document.getElementById('txtn5')
+            var tn6 = window.document.getElementById('txtn6')
+            var res3 = window.document.getElementById('res3')
+            var n1 = Number(tn5.value)
+            var n2 = Number(tn6.value)
+            var div = n1 / n2
+            res3.innerHTML = `A divisão entre ${n1} e ${n2} é igual a ${div}`
 
+        }
+        function multi(){
+            var tn7 = window.document.getElementById('txtn7')
+            var tn8 = window.document.getElementById('txtn8')
+            var res4 = window.document.getElementById('res4')
+            var n1 = Number(tn7.value)
+            var n2 = Number(tn8.value)
+            var multi = n1 ** n2
+            res4.innerHTML = `A Multiplicação entre ${n1} e ${n2} é igual a ${multi}`
+
+
+
+        }
       </script>
 </body>
 </html>
