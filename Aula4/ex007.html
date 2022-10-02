@@ -14,6 +14,9 @@
             font: normal 18pt Arial;
             width: 100px;
         }
+        div#res, div#res2, div#res3, div#res4 {
+            margin-top: 20px;
+        }
     </style>
 
 </head>
@@ -50,7 +53,7 @@
             var n1 = Number(tn1.value)
             var n2 = Number(tn2.value)
             var s = n1 + n2 
-            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${s}`
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a <strong>${s}`
         }
         function subtrair(){
             var tn3 = window.document.getElementById('txtn3')
@@ -59,7 +62,7 @@
             var n1 = Number(tn3.value)
             var n2 = Number(tn4.value)
             var sub = n1 - n2
-            res2.innerHTML = `A subtração entre ${n1} e ${n2} é igual a ${sub}`
+            res2.innerHTML = `A subtração entre ${n1} e ${n2} é igual a <strong>${sub}`
         }    
         function dividir(){
             var tn5 = window.document.getElementById('txtn5')
@@ -68,7 +71,7 @@
             var n1 = Number(tn5.value)
             var n2 = Number(tn6.value)
             var div = n1 / n2
-            res3.innerHTML = `A divisão entre ${n1} e ${n2} é igual a ${div}`
+            res3.innerHTML = `A divisão entre ${n1} e ${n2} é igual a <strong>${div}`
 
         }
         function multi(){
@@ -78,7 +81,7 @@
             var n1 = Number(tn7.value)
             var n2 = Number(tn8.value)
             var multi = n1 ** n2
-            res4.innerHTML = `A Multiplicação entre ${n1} e ${n2} é igual a ${multi}`
+            res4.innerHTML = `A Multiplicação entre ${n1} e ${n2} é igual a <strong>${multi}`
 
 
 
