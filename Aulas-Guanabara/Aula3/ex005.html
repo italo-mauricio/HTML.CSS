@@ -17,10 +17,37 @@
 <body>
     <h1>Iniciando os estudos com DOM</h1>
     <p>Aqui vai o resultado </p>
-    <p>Aprendendo a usar o <strong>Dom</strong> em JavaScript</p>
-    <div>Clique aqui</div>
+    <p>Aprendendo a usar o <strong>Dom</strong> em JavaScript.</p>
+    <div id="msg">Clique aqui</div>
     <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[1]
+        var d = window.document.getElementById('msg')
+        p1.style.color = 'black'
+        d.style.background = 'green'
 
+        // d.innerText = 'Analisando...'
+        // maneira completa = window.document.getElementById('msg').innerText = 'ola'
+
+       var d = window.document.querySelector('div#msg')
+
+        
+
+        /* Document object Model
+
+                    windows
+        document: html -> head(meta, title) -> body (h1, p, p(strong), div)
+
+
+        Métodos para navegar por uma árvore DOM
+
+        Por marca = getElementsByTagName() (consigo selecionar mais de um objeto)
+        Por ID =  
+        Por nome
+        Por classe
+        Por seletor
+
+        */
     </script>
     
 </body>
