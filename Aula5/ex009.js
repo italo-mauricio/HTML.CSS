@@ -2,7 +2,7 @@ var pais = 'brasil'
 console.log(`Vivendo em ${pais}`)
 if (pais == 'brasil'){
 
-    console.log('brasileiro')
+    console.log('brasilero')
 } else {
     console.log('estrangeiro')
 }
