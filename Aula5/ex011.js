@@ -1,4 +1,5 @@
-var hora = 12
+var hora_atual = new Date()
+var hora = hora_atual.getHours()
 console.log(`Agora são ${hora} horas. `)
 if (hora < 12){
     console.log('Bom dia')
