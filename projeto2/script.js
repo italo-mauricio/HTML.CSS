@@ -25,12 +25,15 @@ function verificar(){
             }
         } else if (fsex[1].checked){
             gênero = 'Mulher'
-            if (idade >= 0 && idade < 10){
-
+            if (idade >= 0 && idade <= 10){
+                gênero = 'criança'
+                img.setAttribute('src', 'criança.png')
             }else if (idade < 21){
-                
-            }else if (idade < 50){
-
+                gênero = 'jovem'
+                img.setAttribute('src', 'mulher-jovem.jpg')
+            }else if (idade > 50){
+                gênero = 'idosa'
+                img.setAttribute('src', 'mulher-idosa.jpg')
             }else{
                 
             }
