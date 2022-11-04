@@ -13,12 +13,13 @@ function verificar(){
         var gênero = ''
         if (fsex[0].checked){
             gênero = 'Homem'
-            if (idade >= 0 && idade < 10){
+            if (idade >= 0 && idade <= 10){
+                gênero = 'criança'
                 img.setAttribute('src', 'criança.png')
             }else if (idade < 21){
                 img.setAttribute('src', 'homem-jovem.png')
-            }else if (idade < 50){
-
+            }else if (idade > 50){
+                img.setAttribute('src', 'homem-velho.png')
             }else{
 
             }
