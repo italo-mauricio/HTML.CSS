@@ -1,1 +1,1 @@
-# Repositório destinado ao aprendizado em JavaScript
+# Repositório destinado ao aprendizado em HTML e CSS
