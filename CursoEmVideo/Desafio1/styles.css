@@ -1,0 +1,16 @@
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: rgb(210, 235, 226);
+    font-style: arial;
+    font-size: medium;
+}
+
+img{
+    border-radius: 50%;
+    display: flex;
+    
+}
