@@ -4,13 +4,26 @@ html {
 }
 
 body{
-    background-color: rgb(210, 235, 226);
-    font-style: arial;
+    background: linear-gradient(80deg, transparent, #48595a);
+    font-family: sans-serif;
     font-size: medium;
+    margin: 0;
+    padding: 0;
 }
 
 img{
     border-radius: 50%;
     display: flex;
-    
+    width: 300px;
+    height: 300px;    
+}
+
+.texto{
+    font-style: italic;
+    font-size: large  ;
+}
+
+.texto2{
+    font-style: italic;
+    font-size: large  ;
 }
