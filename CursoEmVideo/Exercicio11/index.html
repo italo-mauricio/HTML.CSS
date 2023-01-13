@@ -20,6 +20,15 @@
 
     <h1>Reproduzindo Áudio</h1>
     <p>Vamos aprender a reproduzir áudios em HTML5</p>
-    <audio src="media/foryou.mp3" controls autoplay></audio>
+   
+
+    <audio preload="auto" controls autoplay>
+        <source src="media/guanacast.mp3" type="audio/mpeg">
+        <source src="media/guanacast.ogg" type="audio/ogg">
+        <source src="media/guanacast.wav" type="audio/wav"> 
+        <p>Infelizmente o seu navegador não consegue baixar audio.
+            <a href="media/guanacast.mp3">Clique aqui para baixar o arquivo</a>
+        </p>
+    </audio>
 </body>
 </html>
