@@ -12,9 +12,21 @@ body {
 
 main {
     background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #887164c5;
     width: 600px;
     padding: 10px;
     margin: auto;
+}
+
+h1 {
+    color: #ec8b02;
+    text-align: center;
+    text-shadow: 1px 1px 2px #995d09;;
+}
+
+h2 {
+    color: #125189;
 }
 
 p {
