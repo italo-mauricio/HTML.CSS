@@ -2,6 +2,7 @@
 /*
 
     em HTML é id = em CSS é #
+    em HTML é class = em CSS é . (ponto)
 
 */
 
@@ -17,6 +18,8 @@ h1 {
 
 h1#principal {
     text-align: center;
+    background-color: green;
+    color: white;
 }
 
 h2 {
