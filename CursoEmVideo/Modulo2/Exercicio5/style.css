@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*
 
-    em HTML é id = em CSS é #
-    em HTML é class = em CSS é . (ponto)
+    em HTML é id = em CSS é #  ( só pode um elemento )
+    em HTML é class = em CSS é . (ponto) (pode ter vários)
 
 */
 
@@ -39,4 +39,8 @@ h2 {
 .avancado {
     color: #803c42;
     font-weight: bold;
+}
+
+.destaque {
+    background-color: rgb(233, 233, 43);
 }
