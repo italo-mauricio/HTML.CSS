@@ -7,21 +7,36 @@
 */
 
 body {
-    background-color: rgb(138, 241, 138);
+    background-color: #d6fde9;
     font-family: Arial, Arial, Helvetica, sans-serif;
 }
 
 h1 {
 
-    color: rgb(21, 182, 21);
+    color: #1e402f;
 }
 
 h1#principal {
     text-align: center;
-    background-color: green;
+    background-color: #3c805e;
     color: white;
 }
 
 h2 {
-    color: (73, 109, 71);
+    color: #3c805e;
+}
+
+.basico{
+   color: #3c805e;
+   font-weight: bold;
+}
+
+.intermediario{
+    color: #807b3c;
+    font-weight: bold;
+}
+
+.avancado {
+    color: #803c42;
+    font-weight: bold;
 }
