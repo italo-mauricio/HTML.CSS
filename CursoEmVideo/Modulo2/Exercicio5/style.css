@@ -1,5 +1,9 @@
 @charset "UTF-8";
+/*
 
+    em HTML é id = em CSS é #
+
+*/
 
 body {
     background-color: rgb(138, 241, 138);
@@ -9,6 +13,10 @@ body {
 h1 {
 
     color: rgb(21, 182, 21);
+}
+
+h1#principal {
+    text-align: center;
 }
 
 h2 {
