@@ -24,12 +24,19 @@
             color: black;
             text-decoration: underline;
         }
+
+        .especial::after{
+            content: " [link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
     </style>
 </head>
 <body>
     <h1>Personalizando links</h1>
     <ul>
-        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório github</a></li>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" class="especial">Repositório github</a></li>
         <li><a href="https://youtube.com/cursoemvideo" target="_blank">Canal do youtube</a></li>
         <li><a href="https://www.cursoemvideo.com" target="_blank">Site curso em video</a></li>
     </ul>
