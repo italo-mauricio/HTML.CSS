@@ -22,6 +22,10 @@ section {
 
 }
 
+p, h1 {
+    color: black;
+}
+
 div {
 
     text-align: center;
