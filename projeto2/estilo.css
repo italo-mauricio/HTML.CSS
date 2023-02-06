@@ -1,5 +1,5 @@
 body {
-    background-color: green;
+    background-color: rgb(107, 248, 107);
     font: normal 15pt Arial;
 
 
@@ -22,12 +22,17 @@ section {
 
 }
 
+h1, p {
+    color: rgb(40, 49, 5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-display: flex;
+}
+
 div {
 
     text-align: center;
-    padding: 8px;
-
-
+    padding: 10px;
 }
 
 footer {
