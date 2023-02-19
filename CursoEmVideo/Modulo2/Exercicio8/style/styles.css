@@ -16,7 +16,7 @@ cores
 
 @font-face {
     font-family: 'Android';
-    src: url('/CursoEmVideo/Modulo2/Exercicio8/fontes/idroid.otf') format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -29,17 +29,29 @@ cores
     --cor5:#063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', 'cursive';
-    --fonte-android: 'Android', 'cursive'.
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
 }
 
 body {
 
     background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
 }
 
 header > h1 {
 
-    background-color: var(--cor5);
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+}
+
+main  h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+}
+
+main h2 {
+
+    font-family: var(--fonte-android);
 
 }
