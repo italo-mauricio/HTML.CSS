@@ -39,10 +39,25 @@ body {
     font-family: var(--fonte-padrao);
 }
 
+header {
+    background-color: var(--cor4);
+}
 header > h1 {
 
-    color: var(--cor3);
+    color: white;
     font-family: var(--fonte-destaque);
+}
+
+header > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--cor5);
+}
+
+main {
+    background-color: white;
 }
 
 main  h1 {
@@ -54,4 +69,9 @@ main h2 {
 
     font-family: var(--fonte-android);
 
+}
+
+footer{
+    background-color: #063d1e;
+    color: white;
 }
