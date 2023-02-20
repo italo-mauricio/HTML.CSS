@@ -79,6 +79,12 @@ main h2 {
 
 }
 
+main img.pequena{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
 main img {
     width: 100%;
 }
