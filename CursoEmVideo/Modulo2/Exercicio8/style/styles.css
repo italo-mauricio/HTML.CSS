@@ -80,7 +80,15 @@ nav {
 nav > a{
     color: white;
     padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
 }
 
 main {
