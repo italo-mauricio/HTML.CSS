@@ -114,6 +114,10 @@ main  h1 {
 main h2 {
 
     font-family: var(--fonte-android);
+    color: var(--cor4);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 8px;
 
 }
 
@@ -145,6 +149,14 @@ main strong{
 main a {
     background-color: var(--cor1);
     padding: 2px 6px;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor4);
 }
 footer{
     background-color: #063d1e;
