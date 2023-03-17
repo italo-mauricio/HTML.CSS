@@ -38,6 +38,9 @@ cores
     padding: 0px;
 }
 
+
+
+
 body {
 
     background-color: var(--cor0);
@@ -117,13 +120,32 @@ main h2 {
 main img.pequena{
     display: block;
     margin: auto;
-    width: 50%;
+    max-width: 350px;
 }
 
 main img {
     width: 100%;
 }
 
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    
+}
+
+main strong{
+    color: var(--cor4);
+    font-height: bold;
+  
+}
+
+main a {
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
 footer{
     background-color: #063d1e;
     color: white;
