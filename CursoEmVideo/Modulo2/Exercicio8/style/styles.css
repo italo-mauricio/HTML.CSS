@@ -46,11 +46,13 @@ body {
 
 header {
     background-color: var(--cor4);
+    min-height: 150px;
 }
 header > h1 {
 
     color: white;
     font-family: var(--fonte-destaque);
+    text-align: center;
 }
 
 header > p {
