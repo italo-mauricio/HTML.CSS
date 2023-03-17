@@ -163,18 +163,29 @@ aside {
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.274);
 }
 
 aside > ul{
+    list-style-type: '\2714\00A0\00A0'; 
     list-style-position: inside;
     columns: 2;
+}
+
+aside > h3{
+    background-color: var(--cor4);
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
 }
 
 footer{
     background-color: #063d1e;
     color: white;
     text-align: center;
-    font-size: 0.0em;
+    font-size: 1.0em;
     padding: 5px;
 }
 
