@@ -158,7 +158,35 @@ main a:hover{
     text-decoration: underline;
     color: var(--cor4);
 }
+
+aside {
+    background-color: var(--cor1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
 footer{
     background-color: #063d1e;
     color: white;
+    text-align: center;
+    font-size: 0.0em;
+    padding: 5px;
 }
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: var(--cor1);
+}
+
+
