@@ -47,16 +47,27 @@ body {
 header {
     background-color: var(--cor4);
     min-height: 150px;
+    text-align: center;
 }
 header > h1 {
 
     color: white;
     font-family: var(--fonte-destaque);
-    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px black;
+
 }
 
 header > p {
     color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+
 }
 
 nav {
